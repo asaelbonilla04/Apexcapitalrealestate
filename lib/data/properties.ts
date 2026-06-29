@@ -49,10 +49,10 @@ export const properties: Property[] = [
     driveInDoors: 1, // 14' x 10' roll-up door
     description:
       "Hard-to-find 1,500 SF small-bay warehouse in one of Ocoee's most convenient industrial corridors — ideal for contractors (HVAC, plumbing, electrical), auto-related businesses, light distribution, and service companies needing clean, functional workspace. The bay features a 14' x 10' roll-up door, high ceilings, a private office and restroom, and 24/7 access. Minutes to major highways and central to Ocoee, Winter Garden, and West Orlando. Limited-time incentive: one month free base rent with a 30-month lease. Immediate move-in available.",
-    // PLACEHOLDER images — replace with real photos from the listing shoot
-    // (the 5 photos provided for 401 Enterprise should be hosted on Imgur or
-    // dropped into /public/images/properties/401-enterprise-ocoee/).
-    images: [FLEX_BUILDING, WAREHOUSE_INTERIOR, LOADING_DOCKS],
+    // Real listing photos (hosted on Imgur). Add additional URLs to this
+    // array as more photos are provided; the first item is used as the card
+    // cover and the gallery on the detail page paginates through all of them.
+    images: ["https://i.imgur.com/KuY1Qad.jpeg"],
     agentId: "agent-miguel-pinto",
     featured: true,
   },
