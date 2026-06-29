@@ -105,7 +105,7 @@ export function Footer() {
             © {year} {company.name}. All rights reserved.
           </p>
           <p className="text-slate-500">
-            Licensed real estate brokerage — Miami, FL. {/* PLACEHOLDER: add license # */}
+            Licensed real estate brokerage — Orlando, FL. {/* PLACEHOLDER: add license # */}
           </p>
         </div>
       </div>

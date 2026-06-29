@@ -18,15 +18,15 @@ const siteUrl = "https://www.apexcapitalrealty.com"; // PLACEHOLDER
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "Apex Capital Realty — Industrial Real Estate Brokerage | Miami, FL",
+    default: "Apex Capital Realty — Industrial Real Estate Brokerage | Orlando, FL",
     template: "%s | Apex Capital Realty",
   },
   description:
-    "Apex Capital Realty is a Miami-based industrial real estate brokerage specializing in warehouse, distribution, last-mile logistics, and industrial land across South Florida.",
+    "Apex Capital Realty is an Orlando-based industrial real estate brokerage specializing in warehouse, distribution, last-mile logistics, and industrial land across Central Florida.",
   keywords: [
     "industrial real estate",
-    "Miami warehouse",
-    "South Florida industrial brokerage",
+    "Orlando warehouse",
+    "Central Florida industrial brokerage",
     "warehouse for lease",
     "distribution center",
     "last-mile logistics",
@@ -39,13 +39,13 @@ export const metadata: Metadata = {
     siteName: company.name,
     title: "Apex Capital Realty — Industrial Real Estate Brokerage",
     description:
-      "Industrial sales, leasing, and advisory across South Florida. Browse our property library of warehouse, distribution, and logistics space.",
+      "Industrial sales, leasing, and advisory across Central Florida. Browse our property library of warehouse, distribution, and logistics space.",
   },
   twitter: {
     card: "summary_large_image",
     title: "Apex Capital Realty — Industrial Real Estate Brokerage",
     description:
-      "Industrial sales, leasing, and advisory across South Florida.",
+      "Industrial sales, leasing, and advisory across Central Florida.",
   },
   robots: { index: true, follow: true },
 };

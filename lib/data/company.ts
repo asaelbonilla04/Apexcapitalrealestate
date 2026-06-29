@@ -1,26 +1,27 @@
 // ---------------------------------------------------------------------------
-// PLACEHOLDER COMPANY INFO (NAP, stats, social links).
+// Company info (NAP, stats, social links).
 //
-// Centralized so the real Apex Capital Realty details only need to be edited
-// in one place. Replace every value marked PLACEHOLDER with verified content,
-// including the office address (NAP), phone, email, and social URLs.
+// Centralized so all surfaces of the site read from one source of truth.
+// Items still marked PLACEHOLDER need real values — verify the street
+// address, phone, social URLs, license number, and stat figures before
+// publishing publicly.
 // ---------------------------------------------------------------------------
 
 export const company = {
   name: "Apex Capital Realty",
   tagline:
     "Breaking away from traditional industrial brokerage and bringing an edge to today's market.",
-  // NAP — Name, Address, Phone. PLACEHOLDER address in the requested style.
+  // NAP — Name, Address, Phone. PLACEHOLDER street pending confirmation.
   address: {
-    street: "561 NE 79th Street, Suite 420",
-    city: "Miami",
+    street: "Office address — TBD", // PLACEHOLDER
+    city: "Orlando",
     state: "FL",
-    zip: "33138",
+    zip: "32801", // PLACEHOLDER ZIP — downtown Orlando default
   },
-  phone: "(305) 555-0100", // PLACEHOLDER
+  phone: "(407) 337-4312", // PLACEHOLDER — confirm main office line
   email: "info@apexcapitalrealty.com", // PLACEHOLDER
-  // Approximate office coordinates for the embedded map. PLACEHOLDER.
-  geo: { lat: 25.8467, lng: -80.1889 },
+  // Downtown Orlando coordinates as a placeholder for the embedded map.
+  geo: { lat: 28.5383, lng: -81.3792 },
   social: {
     linkedin: "https://www.linkedin.com/", // PLACEHOLDER
     instagram: "https://www.instagram.com/", // PLACEHOLDER

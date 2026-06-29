@@ -10,11 +10,11 @@ import {
 export const metadata: Metadata = {
   title: "Property Library — Industrial Listings",
   description:
-    "Browse Apex Capital Realty's library of industrial properties for sale and lease across South Florida — warehouse, distribution, flex, cold storage, IOS, and industrial land.",
+    "Browse Apex Capital Realty's library of industrial properties for sale and lease across Central Florida — warehouse, distribution, flex, cold storage, IOS, and industrial land.",
   openGraph: {
     title: "Industrial Property Library | Apex Capital Realty",
     description:
-      "Searchable catalog of South Florida industrial real estate for sale and lease.",
+      "Searchable catalog of Central Florida industrial real estate for sale and lease.",
   },
 };
 
@@ -62,7 +62,7 @@ export default function PropertiesPage({
         <div className="container-wide py-16 md:py-20">
           <p className="label-eyebrow text-brand-light">The Library</p>
           <h1 className="mt-3 max-w-3xl text-4xl font-bold tracking-tight text-white sm:text-5xl">
-            Industrial properties across South Florida
+            Industrial properties across Central Florida
           </h1>
           <p className="mt-4 max-w-2xl text-lg text-slate-300">
             Search and filter our catalog of warehouse, distribution, flex,

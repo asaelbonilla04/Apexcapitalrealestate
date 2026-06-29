@@ -5,7 +5,7 @@ import { Reveal } from "@/components/shared/reveal";
 
 const points = [
   "Specialized exclusively in industrial — not a generalist shop",
-  "Granular submarket intelligence across Miami-Dade, Broward & Palm Beach",
+  "Granular submarket intelligence across Orange, Seminole & Osceola counties",
   "Institutional-grade underwriting and execution",
   "Conflict-free representation aligned to your interests",
 ];
@@ -21,7 +21,7 @@ export function WhyApex() {
           </h2>
           <p className="mt-5 text-lg leading-relaxed text-muted-foreground">
             We built Apex Capital Realty to do one thing exceptionally well:
-            advise on South Florida industrial real estate. That focus lets us
+            advise on Central Florida industrial real estate. That focus lets us
             see the market more clearly, move faster, and negotiate harder for
             the clients we serve.
           </p>

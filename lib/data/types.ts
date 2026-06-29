@@ -27,7 +27,7 @@ export interface Property {
   slug: string;
   name: string;
   address: string;
-  /** South Florida submarket, e.g. "Doral", "Medley", "Airport West". */
+  /** Central Florida submarket, e.g. "Ocoee / West Orlando", "Lake Nona", "Sanford". */
   submarket: string;
   city: string;
   state: string;

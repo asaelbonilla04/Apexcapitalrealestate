@@ -23,7 +23,7 @@ export const capabilities: Capability[] = [
     slug: "industrial-sales-leasing",
     title: "Industrial Sales & Leasing",
     summary:
-      "Full-service brokerage for warehouse, distribution, and manufacturing assets across South Florida.",
+      "Full-service brokerage for warehouse, distribution, and manufacturing assets across Central Florida.",
     description:
       "We advise owners, investors, and occupiers on the full lifecycle of industrial real estate — from acquisition and disposition to lease structuring. Our team pairs granular submarket intelligence with institutional execution to position every asset for its highest and best outcome.",
     highlights: [

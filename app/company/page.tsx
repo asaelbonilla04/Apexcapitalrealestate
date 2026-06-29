@@ -11,7 +11,7 @@ import { Button } from "@/components/ui/button";
 export const metadata: Metadata = {
   title: "Company",
   description:
-    "About Apex Capital Realty — a Miami-based industrial real estate brokerage breaking from tradition to bring an edge to South Florida's market.",
+    "About Apex Capital Realty — an Orlando-based industrial real estate brokerage breaking from tradition to bring an edge to Central Florida's market.",
 };
 
 // PLACEHOLDER award/recognition logos. Replace with real recognitions.
@@ -28,7 +28,7 @@ export default function CompanyPage() {
           </h1>
           <p className="mt-6 max-w-2xl text-lg text-slate-300">
             Apex Capital Realty was founded to bring sharper insight, faster
-            execution, and a genuine edge to South Florida industrial real
+            execution, and a genuine edge to Central Florida industrial real
             estate. We are specialists — not generalists — and our clients feel
             the difference.
           </p>
@@ -45,14 +45,14 @@ export default function CompanyPage() {
           {/* PLACEHOLDER copy */}
           <div className="mt-5 space-y-4 text-lg leading-relaxed text-muted-foreground">
             <p>
-              South Florida&apos;s industrial market moves fast. Supply is
+              Central Florida&apos;s industrial market moves fast. Supply is
               scarce, capital is competitive, and the operators who win are the
               ones with the best information. That&apos;s the gap we set out to
               close.
             </p>
             <p>
               We pair institutional-grade underwriting with street-level
-              submarket intelligence across Miami-Dade, Broward, and Palm Beach
+              submarket intelligence across Orange, Seminole, Osceola, and Lake counties
               — advising owners, occupiers, and investors with total alignment
               to their goals.
             </p>

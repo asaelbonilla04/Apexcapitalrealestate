@@ -25,7 +25,7 @@ export function Hero() {
       <div className="container-wide relative flex min-h-[88vh] flex-col justify-center py-24">
         <Reveal>
           <p className="label-eyebrow text-brand-light">
-            Industrial Real Estate · Miami, FL
+            Industrial Real Estate · Orlando, FL
           </p>
         </Reveal>
         <Reveal delay={0.08}>
@@ -36,7 +36,7 @@ export function Hero() {
         <Reveal delay={0.16}>
           <p className="mt-6 max-w-2xl text-lg text-slate-300">
             Warehouse, distribution, last-mile logistics, and industrial land
-            across South Florida — represented with sharper insight and
+            across Central Florida — represented with sharper insight and
             institutional execution.
           </p>
         </Reveal>

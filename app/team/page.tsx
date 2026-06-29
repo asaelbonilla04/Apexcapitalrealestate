@@ -8,7 +8,7 @@ import { Reveal } from "@/components/shared/reveal";
 export const metadata: Metadata = {
   title: "Team",
   description:
-    "Meet the Apex Capital Realty team — industrial real estate brokers and advisors serving South Florida.",
+    "Meet the Apex Capital Realty team — industrial real estate brokers and advisors serving Central Florida.",
 };
 
 export default function TeamPage() {
@@ -24,7 +24,7 @@ export default function TeamPage() {
           </h1>
           <p className="mt-4 max-w-2xl text-lg text-slate-300">
             A focused team of industrial specialists with deep roots across the
-            South Florida market.
+            Central Florida market.
           </p>
         </div>
       </section>

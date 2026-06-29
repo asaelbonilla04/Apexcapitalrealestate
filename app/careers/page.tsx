@@ -8,7 +8,7 @@ import { Reveal } from "@/components/shared/reveal";
 export const metadata: Metadata = {
   title: "Careers",
   description:
-    "Join Apex Capital Realty. We're building a focused team of industrial real estate professionals in South Florida.",
+    "Join Apex Capital Realty. We're building a focused team of industrial real estate professionals in Central Florida.",
 };
 
 // PLACEHOLDER value props — replace with real culture/benefits copy.

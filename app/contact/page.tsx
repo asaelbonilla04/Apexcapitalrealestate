@@ -8,7 +8,7 @@ import { MapEmbed } from "@/components/shared/map-embed";
 export const metadata: Metadata = {
   title: "Contact",
   description:
-    "Get in touch with Apex Capital Realty's industrial brokerage team in Miami, FL. Discuss a requirement, a listing, or an investment opportunity.",
+    "Get in touch with Apex Capital Realty's industrial brokerage team in Orlando, FL. Discuss a requirement, a listing, or an investment opportunity.",
 };
 
 const socials = [
@@ -29,7 +29,7 @@ export default function ContactPage() {
           </h1>
           <p className="mt-4 max-w-2xl text-lg text-slate-300">
             Whether you&apos;re an occupier, owner, or investor, our team is
-            ready to help you move on South Florida industrial.
+            ready to help you move on Central Florida industrial.
           </p>
         </div>
       </section>

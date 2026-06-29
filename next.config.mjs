@@ -10,6 +10,12 @@ const nextConfig = {
         protocol: "https",
         hostname: "images.unsplash.com",
       },
+      {
+        // Used for property photos hosted on Imgur. Once photos are migrated
+        // to /public/images/properties/, this entry can be removed.
+        protocol: "https",
+        hostname: "i.imgur.com",
+      },
     ],
   },
 };
