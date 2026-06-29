@@ -55,6 +55,9 @@ export const properties: Property[] = [
     images: [
       "https://i.imgur.com/KuY1Qad.jpeg",
       "https://i.imgur.com/S7ITtb2.jpeg",
+      "https://i.imgur.com/kDpOFqi.jpeg",
+      "https://i.imgur.com/r7tijnA.png",
+      "https://i.imgur.com/Uq9i2Hz.png",
     ],
     agentId: "agent-miguel-pinto",
     featured: true,
