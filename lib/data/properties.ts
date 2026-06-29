@@ -41,6 +41,35 @@ const LAND_PARCEL =
   "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1600&q=80";
 
 export const properties: Property[] = [
+  // -----------------------------------------------------------------------
+  // REAL LISTING — 401 Enterprise Street, Ocoee FL.
+  // NOTE: agent is still the placeholder "Marcus Delgado" — replace with the
+  // real listing agent record in lib/data/agents.ts. The 5 image entries below
+  // are Unsplash placeholders; replace with the real property photos under
+  // /public/images/properties/401-enterprise-ocoee/.
+  // -----------------------------------------------------------------------
+  {
+    id: "prop-401-enterprise",
+    slug: "401-enterprise-st-ocoee-fl",
+    name: "401 Enterprise Street",
+    address: "401 Enterprise Street",
+    submarket: "Ocoee / West Orlando",
+    city: "Ocoee",
+    state: "FL",
+    zip: "34761",
+    lat: 28.5605,
+    lng: -81.5340,
+    status: "For Lease",
+    type: "Flex/R&D",
+    leaseRate: 28.0, // $3,500/month × 12 ÷ 1,500 SF = $28.00/SF/YR
+    sizeSqFt: 1500,
+    driveInDoors: 1, // 14' x 10' roll-up
+    description:
+      "Hard-to-find 1,500 SF small-bay warehouse in one of Ocoee's most convenient industrial corridors — ideal for contractors (HVAC, plumbing, electrical), auto-related businesses, light distribution, and service companies needing clean, functional workspace. The bay features a 14' x 10' roll-up door, high ceilings, a private office and restroom, and 24/7 access. Minutes to major highways and central to Ocoee, Winter Garden, and West Orlando. Limited-time incentive: one month free base rent with a 30-month lease. Immediate move-in available.",
+    images: [FLEX_BUILDING, WAREHOUSE_INTERIOR, LOADING_DOCKS],
+    agentId: "agent-001",
+    featured: true,
+  },
   {
     id: "prop-001",
     slug: "doral-logistics-center-3550-nw-112",
