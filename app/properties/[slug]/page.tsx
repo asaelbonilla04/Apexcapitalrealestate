@@ -37,7 +37,7 @@ export function generateMetadata({
     title,
     description,
     openGraph: {
-      title: `${property.name} | Apex Capital Realty`,
+      title: `${property.name} | Terramap`,
       description,
       images: property.images[0] ? [{ url: property.images[0] }] : undefined,
     },

@@ -14,7 +14,7 @@ import { Reveal } from "@/components/shared/reveal";
 export const metadata: Metadata = {
   title: "Capabilities",
   description:
-    "Apex Capital Realty's industrial service lines: sales & leasing, last-mile logistics advisory, landlord & tenant representation, and debt & advisory services.",
+    "Terramap's industrial service lines: sales & leasing, last-mile logistics advisory, landlord & tenant representation, and debt & advisory services.",
 };
 
 const iconMap = {

@@ -55,7 +55,7 @@ export function InquiryForm({ propertyName }: { propertyName: string }) {
         <CheckCircle2 className="h-10 w-10 text-emerald-600" />
         <p className="mt-4 text-lg font-bold text-navy">Thank you</p>
         <p className="mt-1 text-sm text-muted-foreground">
-          Your inquiry has been received. A member of the Apex team will reach
+          Your inquiry has been received. A member of the Terramap team will reach
           out shortly.
         </p>
       </div>

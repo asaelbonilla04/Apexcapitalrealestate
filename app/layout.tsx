@@ -18,11 +18,11 @@ const siteUrl = "https://www.apexcapitalrealty.com"; // PLACEHOLDER
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "Apex Capital Realty — Industrial Real Estate Brokerage | Orlando, FL",
-    template: "%s | Apex Capital Realty",
+    default: "Terramap — Industrial Real Estate Brokerage | Orlando, FL",
+    template: "%s | Terramap",
   },
   description:
-    "Apex Capital Realty is an Orlando-based industrial real estate brokerage specializing in warehouse, distribution, last-mile logistics, and industrial land across Central Florida.",
+    "Terramap is an Orlando-based industrial real estate brokerage specializing in warehouse, distribution, last-mile logistics, and industrial land across Central Florida.",
   keywords: [
     "industrial real estate",
     "Orlando warehouse",
@@ -37,13 +37,13 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: siteUrl,
     siteName: company.name,
-    title: "Apex Capital Realty — Industrial Real Estate Brokerage",
+    title: "Terramap — Industrial Real Estate Brokerage",
     description:
       "Industrial sales, leasing, and advisory across Central Florida. Browse our property library of warehouse, distribution, and logistics space.",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Apex Capital Realty — Industrial Real Estate Brokerage",
+    title: "Terramap — Industrial Real Estate Brokerage",
     description:
       "Industrial sales, leasing, and advisory across Central Florida.",
   },

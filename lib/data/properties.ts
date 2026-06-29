@@ -5,7 +5,7 @@ import type {
 } from "./types";
 
 // ---------------------------------------------------------------------------
-// Apex Capital Realty property listings.
+// Terramap property listings.
 //
 // REAL DATA. Add new listings to the `properties` array below. The data
 // access functions at the bottom of this file are the single seam to replace

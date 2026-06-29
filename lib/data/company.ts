@@ -8,7 +8,7 @@
 // ---------------------------------------------------------------------------
 
 export const company = {
-  name: "Apex Capital Realty",
+  name: "Terramap",
   tagline:
     "Breaking away from traditional industrial brokerage and bringing an edge to today's market.",
   // NAP — Name, Address, Phone. PLACEHOLDER street pending confirmation.

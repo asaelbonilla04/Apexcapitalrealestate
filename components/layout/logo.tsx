@@ -3,9 +3,9 @@ import Link from "next/link";
 import { cn } from "@/lib/utils";
 
 /**
- * Wordmark logo. PLACEHOLDER — replace with the real Apex Capital Realty
- * logo asset (SVG preferred) when available; drop it in /public and swap the
- * markup below.
+ * Wordmark logo. PLACEHOLDER — replace with the real Terramap logo asset
+ * (SVG preferred) when available; drop it in /public and swap the markup
+ * below.
  */
 export function Logo({
   invert = false,
@@ -18,7 +18,7 @@ export function Logo({
     <Link
       href="/"
       className={cn("inline-flex items-center gap-2", className)}
-      aria-label="Apex Capital Realty — home"
+      aria-label="Terramap — home"
     >
       <span
         className={cn(
@@ -26,25 +26,15 @@ export function Logo({
         )}
         aria-hidden="true"
       >
-        A
+        T
       </span>
-      <span className="flex flex-col leading-none">
-        <span
-          className={cn(
-            "text-sm font-bold tracking-tight",
-            invert ? "text-white" : "text-navy",
-          )}
-        >
-          APEX CAPITAL
-        </span>
-        <span
-          className={cn(
-            "text-[10px] font-semibold uppercase tracking-label",
-            invert ? "text-slate-300" : "text-brand",
-          )}
-        >
-          Realty
-        </span>
+      <span
+        className={cn(
+          "text-base font-bold tracking-tight",
+          invert ? "text-white" : "text-navy",
+        )}
+      >
+        TERRAMAP
       </span>
     </Link>
   );

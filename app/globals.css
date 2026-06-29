@@ -4,7 +4,7 @@
 
 @layer base {
   :root {
-    /* shadcn/ui tokens tuned to the Apex Capital Realty palette.
+    /* shadcn/ui tokens tuned to the Terramap palette.
        --primary maps to brand blue #295CD6; --secondary to navy #0B1220. */
     --background: 210 20% 99%;
     --foreground: 222 47% 8%;

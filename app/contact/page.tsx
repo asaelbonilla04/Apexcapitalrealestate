@@ -8,7 +8,7 @@ import { MapEmbed } from "@/components/shared/map-embed";
 export const metadata: Metadata = {
   title: "Contact",
   description:
-    "Get in touch with Apex Capital Realty's industrial brokerage team in Orlando, FL. Discuss a requirement, a listing, or an investment opportunity.",
+    "Get in touch with Terramap's industrial brokerage team in Orlando, FL. Discuss a requirement, a listing, or an investment opportunity.",
 };
 
 const socials = [

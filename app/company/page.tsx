@@ -11,7 +11,7 @@ import { Button } from "@/components/ui/button";
 export const metadata: Metadata = {
   title: "Company",
   description:
-    "About Apex Capital Realty — an Orlando-based industrial real estate brokerage breaking from tradition to bring an edge to Central Florida's market.",
+    "About Terramap — an Orlando-based industrial real estate brokerage breaking from tradition to bring an edge to Central Florida's market.",
 };
 
 // PLACEHOLDER award/recognition logos. Replace with real recognitions.
@@ -27,7 +27,7 @@ export default function CompanyPage() {
             Breaking away from traditional industrial brokerage.
           </h1>
           <p className="mt-6 max-w-2xl text-lg text-slate-300">
-            Apex Capital Realty was founded to bring sharper insight, faster
+            Terramap was founded to bring sharper insight, faster
             execution, and a genuine edge to Central Florida industrial real
             estate. We are specialists — not generalists — and our clients feel
             the difference.
@@ -94,7 +94,7 @@ export default function CompanyPage() {
         <SectionHeading
           eyebrow="Recognition"
           title="Awards & affiliations"
-          description="Placeholder recognitions — replace with Apex Capital Realty's actual awards, designations, and memberships."
+          description="Placeholder recognitions — replace with Terramap's actual awards, designations, and memberships."
           align="center"
         />
         <div className="mt-10 flex flex-wrap items-center justify-center gap-x-12 gap-y-6">
@@ -115,7 +115,7 @@ export default function CompanyPage() {
           <div>
             <p className="label-eyebrow mb-2">Careers</p>
             <h2 className="text-2xl font-bold text-navy sm:text-3xl">
-              Build your career at Apex
+              Build your career at Terramap
             </h2>
             <p className="mt-2 max-w-xl text-muted-foreground">
               We&apos;re always looking for sharp, driven people to join the

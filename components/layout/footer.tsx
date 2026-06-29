@@ -94,7 +94,7 @@ export function Footer() {
             href="/contact"
             className="inline-flex items-center text-sm font-semibold text-white underline-offset-4 hover:underline"
           >
-            Contact Apex →
+            Contact Terramap →
           </Link>
         </div>
       </div>

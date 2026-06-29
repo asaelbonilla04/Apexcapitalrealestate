@@ -8,7 +8,7 @@ import { Reveal } from "@/components/shared/reveal";
 export const metadata: Metadata = {
   title: "Careers",
   description:
-    "Join Apex Capital Realty. We're building a focused team of industrial real estate professionals in Central Florida.",
+    "Join Terramap. We're building a focused team of industrial real estate professionals in Central Florida.",
 };
 
 // PLACEHOLDER value props — replace with real culture/benefits copy.
@@ -40,7 +40,7 @@ export default function CareersPage() {
             We&apos;re hiring driven people who want an edge.
           </h1>
           <p className="mt-6 max-w-2xl text-lg text-slate-300">
-            Apex Capital Realty is growing. If you&apos;re ambitious about
+            Terramap is growing. If you&apos;re ambitious about
             industrial real estate and want a platform that rewards
             performance, we want to hear from you.
           </p>

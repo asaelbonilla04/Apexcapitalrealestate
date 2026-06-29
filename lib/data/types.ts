@@ -1,5 +1,5 @@
 // ---------------------------------------------------------------------------
-// Core domain types for the Apex Capital Realty property library.
+// Core domain types for the Terramap property library.
 //
 // These types describe industrial real estate listings and the agents who
 // represent them. Keep this file as the single source of truth for shapes

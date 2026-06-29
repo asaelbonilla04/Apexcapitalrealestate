@@ -10,9 +10,9 @@ import {
 export const metadata: Metadata = {
   title: "Property Library — Industrial Listings",
   description:
-    "Browse Apex Capital Realty's library of industrial properties for sale and lease across Central Florida — warehouse, distribution, flex, cold storage, IOS, and industrial land.",
+    "Browse Terramap's library of industrial properties for sale and lease across Central Florida — warehouse, distribution, flex, cold storage, IOS, and industrial land.",
   openGraph: {
-    title: "Industrial Property Library | Apex Capital Realty",
+    title: "Industrial Property Library | Terramap",
     description:
       "Searchable catalog of Central Florida industrial real estate for sale and lease.",
   },

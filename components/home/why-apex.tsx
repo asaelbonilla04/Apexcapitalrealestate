@@ -15,12 +15,12 @@ export function WhyApex() {
     <section className="bg-background py-24">
       <div className="container-wide grid items-center gap-12 lg:grid-cols-2">
         <Reveal className="order-2 lg:order-1">
-          <p className="label-eyebrow mb-3">Why Apex</p>
+          <p className="label-eyebrow mb-3">Why Terramap</p>
           <h2 className="text-3xl font-bold tracking-tight text-navy sm:text-4xl">
             An edge built on focus, data, and conviction.
           </h2>
           <p className="mt-5 text-lg leading-relaxed text-muted-foreground">
-            We built Apex Capital Realty to do one thing exceptionally well:
+            We built Terramap to do one thing exceptionally well:
             advise on Central Florida industrial real estate. That focus lets us
             see the market more clearly, move faster, and negotiate harder for
             the clients we serve.

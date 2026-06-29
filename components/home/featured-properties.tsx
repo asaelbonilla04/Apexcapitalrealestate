@@ -17,7 +17,7 @@ export function FeaturedProperties() {
           <SectionHeading
             eyebrow="Properties"
             title="Featured industrial listings"
-            description="A snapshot of current opportunities from across the Apex library — for sale and for lease."
+            description="A snapshot of current opportunities from across the Terramap library — for sale and for lease."
           />
           <Reveal delay={0.1}>
             <Button asChild variant="outline">

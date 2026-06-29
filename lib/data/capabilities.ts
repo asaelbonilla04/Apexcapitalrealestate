@@ -2,7 +2,7 @@
 // PLACEHOLDER COPY — service lines / capabilities.
 //
 // Marketing copy below is sample text written to demonstrate layout and tone.
-// Review and replace with approved Apex Capital Realty messaging before launch.
+// Review and replace with approved Terramap messaging before launch.
 // ---------------------------------------------------------------------------
 
 export interface Capability {

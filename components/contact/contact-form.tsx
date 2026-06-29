@@ -71,7 +71,7 @@ export function ContactForm() {
         <CheckCircle2 className="h-12 w-12 text-emerald-600" />
         <p className="mt-4 text-xl font-bold text-navy">Message sent</p>
         <p className="mt-2 max-w-sm text-sm text-muted-foreground">
-          Thanks for reaching out. A member of the Apex Capital Realty team will
+          Thanks for reaching out. A member of the Terramap team will
           be in touch shortly.
         </p>
         <Button

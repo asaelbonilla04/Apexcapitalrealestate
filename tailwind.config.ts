@@ -17,7 +17,7 @@ const config: Config = {
     },
     extend: {
       colors: {
-        // Apex Capital Realty brand palette
+        // Terramap brand palette
         brand: {
           DEFAULT: "#295CD6", // primary deep blue
           dark: "#1E48AB",
