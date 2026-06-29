@@ -52,7 +52,10 @@ export const properties: Property[] = [
     // Real listing photos (hosted on Imgur). Add additional URLs to this
     // array as more photos are provided; the first item is used as the card
     // cover and the gallery on the detail page paginates through all of them.
-    images: ["https://i.imgur.com/KuY1Qad.jpeg"],
+    images: [
+      "https://i.imgur.com/KuY1Qad.jpeg",
+      "https://i.imgur.com/S7ITtb2.jpeg",
+    ],
     agentId: "agent-miguel-pinto",
     featured: true,
   },
