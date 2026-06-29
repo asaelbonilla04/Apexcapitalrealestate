@@ -12,15 +12,12 @@ export const agents: Agent[] = [
   {
     id: "agent-miguel-pinto",
     name: "Miguel Pinto",
-    title: "Broker", // TODO: confirm exact title
-    phone: "(407) 337-4312",
+    title: "Property Owner",
+    phone: "(305) 632-2575",
     email: "miguel@apexcapitalrealty.com",
-    // PLACEHOLDER headshot — replace with Miguel's real photo (ideally hosted
-    // locally under /public/images/team/miguel-pinto.jpg).
     photo:
-      "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=600&q=80",
-    // PLACEHOLDER bio — replace with Miguel's real bio.
-    bio: "Miguel advises clients on industrial sales and leasing across Central Florida, with a focus on small-bay flex, warehouse, and last-mile opportunities in the Orlando market.",
+      "https://i0.wp.com/apexcapitalrealty.com/wp-content/uploads/2021/06/96-3.jpeg?fit=896%2C1088&ssl=1",
+    bio: "Reach out directly for showings, inquiries, and additional details on available listings.",
   },
 ];
 

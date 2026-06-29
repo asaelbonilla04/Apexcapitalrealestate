@@ -16,6 +16,12 @@ const nextConfig = {
         protocol: "https",
         hostname: "i.imgur.com",
       },
+      {
+        // Jetpack/WordPress Photon CDN — serves agent headshots and other
+        // imagery sourced from apexcapitalrealty.com's WordPress site.
+        protocol: "https",
+        hostname: "i0.wp.com",
+      },
     ],
   },
 };
