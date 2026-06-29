@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* shadcn/ui tokens tuned to the Apex Capital Realty palette.
+       --primary maps to brand blue #295CD6; --secondary to navy #0B1220. */
+    --background: 210 20% 99%;
+    --foreground: 222 47% 8%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222 47% 8%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222 47% 8%;
+
+    --primary: 222 70% 50%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 222 47% 8%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 210 16% 96%;
+    --muted-foreground: 215 16% 42%;
+
+    --accent: 222 70% 96%;
+    --accent-foreground: 222 47% 11%;
+
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 214 20% 88%;
+    --input: 214 20% 88%;
+    --ring: 222 70% 50%;
+
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-feature-settings: "ss01", "cv01";
+  }
+  /* Uppercase eyebrow / label styling used throughout the editorial layout. */
+  .label-eyebrow {
+    @apply text-xs font-semibold uppercase tracking-label text-brand;
+  }
+}
+
+@layer utilities {
+  /* Constrained content width matching the architectural grid feel. */
+  .container-tight {
+    @apply mx-auto w-full max-w-6xl px-6;
+  }
+  .container-wide {
+    @apply mx-auto w-full max-w-7xl px-6;
+  }
+}
+
+/* Respect users who prefer reduced motion: neutralize Framer-driven and CSS
+   animations/transitions globally. */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
