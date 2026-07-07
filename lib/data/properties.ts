@@ -32,6 +32,33 @@ const LOADING_DOCKS =
 
 export const properties: Property[] = [
   {
+    id: "prop-1495-seminola",
+    slug: "1495-seminola-blvd-casselberry-fl",
+    name: "Seminola Collective",
+    address: "1495 Seminola Boulevard",
+    submarket: "Casselberry",
+    city: "Casselberry",
+    state: "FL",
+    zip: "32707",
+    lat: 28.6558,
+    lng: -81.3345,
+    status: "For Lease",
+    type: "Flex/R&D",
+    // Rate reflects Unit 1015 (smaller). Unit 1023 works out to $20.57/SF/YR.
+    leaseRate: 22.4, // $2,800/mo × 12 ÷ 1,500 SF
+    sizeSqFt: 1500, // Unit 1015; Unit 1023 is 2,800 SF (see description)
+    driveInDoors: 1,
+    description:
+      "Seminola Collective — flex industrial units with DMV Wholesale Dealer License–approved zoning in one of Casselberry's most accessible commercial corridors, minutes from SR-436, I-4, and the Winter Park / Fern Park corridor. Two units currently available: Unit 1015 (1,500 SF at $2,800/mo) and Unit 1023 (2,800 SF at $4,800/mo). Each includes a private warehouse bay with a roll-up drive-in door, private office and restroom, professional business address, ample parking for inventory/crew/customers, and 24/7 access. Ideal for wholesale auto dealers and brokers, auto detailers, wrappers and mechanics, contractors and trades (HVAC, plumbing, electrical, flooring), fabricators and custom builders, and e-commerce, fulfillment or mobile business HQ. Limited-time incentive: one month free on qualified 24-month leases.",
+    images: [
+      "https://i.imgur.com/omduoqE.jpeg",
+      "https://i.imgur.com/laCiE4q.jpeg",
+      "https://i.imgur.com/ZEQsgTz.jpeg",
+    ],
+    agentId: "agent-miguel-pinto",
+    featured: true,
+  },
+  {
     id: "prop-2621-skyview",
     slug: "2621-skyview-dr-lakeland-fl",
     name: "2621 Skyview Drive",
