@@ -51,8 +51,8 @@ export const properties: Property[] = [
     description:
       "Well-maintained small-bay warehouses in one of Lakeland's most accessible commercial corridors, with quick access to I-4, US-98, and the Polk Parkway. Four ~1,250 SF units currently available: Unit 6 at $1,900/mo and Units 12, 17, and 18 at $1,850/mo each. Every unit features a 12' × 12' roll-up drive-in door, 15' ceilings for racking, vehicles or equipment, a private office and restroom, ample parking, and 24/7 access. Ideal for contractors and trades (HVAC, plumbing, electrical, flooring), auto detailing and light mechanical, e-commerce and fulfillment, light manufacturing and fabrication, and storage or distribution.",
     images: [
-      "https://i.imgur.com/Kp4hqXh.jpeg",
       "https://i.imgur.com/15qVdPE.jpeg",
+      "https://i.imgur.com/Kp4hqXh.jpeg",
       "https://i.imgur.com/KoRtur4.jpeg",
       "https://i.imgur.com/SDnz7aG.jpeg",
       "https://i.imgur.com/ckoGlQ9.png",
