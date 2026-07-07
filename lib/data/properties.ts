@@ -56,7 +56,7 @@ export const properties: Property[] = [
       "/images/properties/1046-shadick/02-unit-9-exterior-1.jpg",
       "/images/properties/1046-shadick/03-office-1.jpg",
       "/images/properties/1046-shadick/04-bathroom-a-1.jpg",
-      "/images/properties/1046-shadick/05-bathroom-b-1.jpg",
+      "https://i.imgur.com/QpfeHZJ.jpeg",
     ],
     agentId: "agent-miguel-pinto",
     featured: true,
