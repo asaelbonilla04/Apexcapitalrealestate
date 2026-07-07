@@ -32,6 +32,35 @@ const LOADING_DOCKS =
 
 export const properties: Property[] = [
   {
+    id: "prop-2020-combee",
+    slug: "2020-s-combee-rd-lakeland-fl",
+    name: "2020 S Combee Road",
+    address: "2020 S Combee Road",
+    submarket: "Lakeland",
+    city: "Lakeland",
+    state: "FL",
+    zip: "33801",
+    lat: 28.0195,
+    lng: -81.9075,
+    status: "For Lease",
+    type: "Flex/R&D",
+    leaseRate: 17.76, // $1,850/mo × 12 ÷ 1,250 SF (typical unit)
+    sizeSqFt: 1250, // per unit; four units currently available
+    clearHeightFt: 15,
+    driveInDoors: 1, // 12' × 12' roll-up
+    description:
+      "Well-maintained small-bay warehouses in one of Lakeland's most accessible commercial corridors, with quick access to I-4, US-98, and the Polk Parkway. Four ~1,250 SF units currently available: Unit 6 at $1,900/mo and Units 12, 17, and 18 at $1,850/mo each. Every unit features a 12' × 12' roll-up drive-in door, 15' ceilings for racking, vehicles or equipment, a private office and restroom, ample parking, and 24/7 access. Ideal for contractors and trades (HVAC, plumbing, electrical, flooring), auto detailing and light mechanical, e-commerce and fulfillment, light manufacturing and fabrication, and storage or distribution.",
+    images: [
+      "https://i.imgur.com/Kp4hqXh.jpeg",
+      "https://i.imgur.com/15qVdPE.jpeg",
+      "https://i.imgur.com/KoRtur4.jpeg",
+      "https://i.imgur.com/SDnz7aG.jpeg",
+      "https://i.imgur.com/ckoGlQ9.png",
+    ],
+    agentId: "agent-miguel-pinto",
+    featured: true,
+  },
+  {
     id: "prop-1495-seminola",
     slug: "1495-seminola-blvd-casselberry-fl",
     name: "Seminola Collective",
