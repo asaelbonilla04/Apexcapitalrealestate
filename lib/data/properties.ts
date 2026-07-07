@@ -54,9 +54,9 @@ export const properties: Property[] = [
       "https://i.imgur.com/50tIYs0.jpeg",
       // Self-hosted photos from the property photo set.
       "/images/properties/1046-shadick/02-unit-9-exterior-1.jpg",
-      "/images/properties/1046-shadick/03-office-1.jpg",
-      "/images/properties/1046-shadick/04-bathroom-a-1.jpg",
       "https://i.imgur.com/QpfeHZJ.jpeg",
+      "/images/properties/1046-shadick/04-bathroom-a-1.jpg",
+      "/images/properties/1046-shadick/03-office-1.jpg",
     ],
     agentId: "agent-miguel-pinto",
     featured: true,
