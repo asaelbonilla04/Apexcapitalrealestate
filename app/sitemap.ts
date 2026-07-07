@@ -4,7 +4,7 @@ import { getProperties } from "@/lib/data/properties";
 import { getCapabilities } from "@/lib/data/capabilities";
 
 // Update to the production domain before launch.
-const baseUrl = "https://www.apexcapitalrealty.com"; // PLACEHOLDER
+const baseUrl = "https://terramapproperties.vercel.app";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const staticRoutes = [

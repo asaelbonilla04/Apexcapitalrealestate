@@ -13,7 +13,9 @@ const inter = Inter({
 });
 
 // Update with the production domain before launch.
-const siteUrl = "https://www.apexcapitalrealty.com"; // PLACEHOLDER
+// The Vercel-hosted production URL. When a custom domain (e.g. terramap.com)
+// is attached, swap this for the real domain.
+const siteUrl = "https://terramapproperties.vercel.app";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
