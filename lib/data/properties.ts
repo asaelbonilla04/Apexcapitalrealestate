@@ -49,9 +49,7 @@ export const properties: Property[] = [
     driveInDoors: 1,
     description:
       "Rare dealer-approved warehouse bays in the Orange City / DeLand corridor — one of the only DMV Wholesale Dealer License–approved properties available in the market. Two ~1,000 SF units currently available (Unit 9 and Unit E) at $1,900/month each, each featuring a roll-up door, a private office and restroom, 24/7 access, and ample parking for inventory, employees, and customers. Gated property with daytime access for tenants and minutes from I-4 and US-17. Ideal for used car dealers, auto brokers, mechanics, detailers, contractors (HVAC, plumbing, electrical, flooring), e-commerce, and light distribution. Limited-time incentive: one month free with a 30-month lease.",
-    // PLACEHOLDER image — replace with real photos hosted on Imgur (the
-    // 1046 Shadick Drive photo set the user shared from their Desktop).
-    images: [FLEX_BUILDING],
+    images: ["https://i.imgur.com/50tIYs0.jpeg"],
     agentId: "agent-miguel-pinto",
     featured: true,
   },
