@@ -32,6 +32,35 @@ const LOADING_DOCKS =
 
 export const properties: Property[] = [
   {
+    id: "prop-2621-skyview",
+    slug: "2621-skyview-dr-lakeland-fl",
+    name: "2621 Skyview Drive",
+    address: "2621 Skyview Drive",
+    submarket: "Lakeland",
+    city: "Lakeland",
+    state: "FL",
+    zip: "33810", // PLACEHOLDER — confirm exact ZIP
+    lat: 28.0800,
+    lng: -81.9498,
+    status: "For Lease",
+    type: "Warehouse/Distribution",
+    leaseRate: 16.07, // $7,500/month × 12 ÷ 5,600 SF = $16.07/SF/YR
+    sizeSqFt: 5600,
+    driveInDoors: 1, // large roll-up
+    officeBuildOutPct: 13, // ~700 SF AC office/showroom of 5,600 SF total
+    description:
+      "Clean, modern warehouse space in one of Lakeland's fastest-growing industrial corridors. The 5,600 SF unit includes a ~700 SF air-conditioned office/showroom plus a freshly renovated, high-clearance warehouse with epoxy floors, bright LED lighting throughout, and a large roll-up door for easy vehicle and equipment access. Dealer-friendly, with ample parking, easy truck and trailer access, and 24/7 access — minutes from I-4 and major Lakeland routes. Ideal for used car dealers and auto brokers, contractors (HVAC, electrical, plumbing, flooring), auto detailers and mechanics, e-commerce and inventory storage, small distribution, or workshop / flex industrial use.",
+    images: [
+      "https://i.imgur.com/sWjr6t4.jpeg",
+      "https://i.imgur.com/OeZambQ.jpeg",
+      "https://i.imgur.com/jJkFDYd.jpeg",
+      "https://i.imgur.com/Foc53h7.png",
+      "https://i.imgur.com/cUVcNxf.png",
+    ],
+    agentId: "agent-miguel-pinto",
+    featured: true,
+  },
+  {
     id: "prop-1046-shadick",
     slug: "1046-shadick-dr-orange-city-fl",
     name: "1046 Shadick Drive",
