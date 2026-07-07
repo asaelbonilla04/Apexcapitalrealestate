@@ -32,6 +32,30 @@ const LOADING_DOCKS =
 
 export const properties: Property[] = [
   {
+    id: "prop-1046-shadick",
+    slug: "1046-shadick-dr-orange-city-fl",
+    name: "1046 Shadick Drive",
+    address: "1046 Shadick Drive",
+    submarket: "Orange City / DeLand",
+    city: "Orange City",
+    state: "FL",
+    zip: "32763",
+    lat: 28.9483,
+    lng: -81.2937,
+    status: "For Lease",
+    type: "Flex/R&D",
+    leaseRate: 22.8, // $1,900/month × 12 ÷ 1,000 SF = $22.80/SF/YR
+    sizeSqFt: 1000, // per available unit
+    driveInDoors: 1,
+    description:
+      "Rare dealer-approved warehouse bays in the Orange City / DeLand corridor — one of the only DMV Wholesale Dealer License–approved properties available in the market. Two ~1,000 SF units currently available (Unit 9 and Unit E) at $1,900/month each, each featuring a roll-up door, a private office and restroom, 24/7 access, and ample parking for inventory, employees, and customers. Gated property with daytime access for tenants and minutes from I-4 and US-17. Ideal for used car dealers, auto brokers, mechanics, detailers, contractors (HVAC, plumbing, electrical, flooring), e-commerce, and light distribution. Limited-time incentive: one month free with a 30-month lease.",
+    // PLACEHOLDER image — replace with real photos hosted on Imgur (the
+    // 1046 Shadick Drive photo set the user shared from their Desktop).
+    images: [FLEX_BUILDING],
+    agentId: "agent-miguel-pinto",
+    featured: true,
+  },
+  {
     id: "prop-401-enterprise",
     slug: "401-enterprise-st-ocoee-fl",
     name: "401 Enterprise Street",
