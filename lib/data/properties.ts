@@ -32,6 +32,35 @@ const LOADING_DOCKS =
 
 export const properties: Property[] = [
   {
+    id: "prop-1110-sligh",
+    slug: "1110-sligh-blvd-orlando-fl",
+    name: "1110 Sligh Boulevard",
+    address: "1110 Sligh Boulevard",
+    submarket: "Orlando",
+    city: "Orlando",
+    state: "FL",
+    zip: "32806",
+    lat: 28.5289,
+    lng: -81.3778,
+    status: "For Lease",
+    type: "Flex/R&D",
+    leaseRate: 22.2, // $6,475/mo × 12 ÷ 3,500 SF
+    // NOTE: listing headline says 3,700 SF; pricing block says 3,500 SF.
+    // Using 3,500 (paired with the rate); confirm the correct size.
+    sizeSqFt: 3500,
+    driveInDoors: 1,
+    description:
+      "Versatile warehouse/flex space in a prime central Orlando corridor with fast access to I-4 and major routes. 3,500 SF unit combining warehouse and flex use — ideal for storage, production, or a showroom — with a roll-up drive-in door for easy loading and vehicle access, high ceilings suited to equipment and racking, a private office and restroom, ample parking for employees and clients, and 24/7 access. Well-suited for contractors and trades (HVAC, plumbing, electrical), auto dealers, detailers and repair shops, e-commerce, fulfillment and distribution, light manufacturing and fabrication, and creative studios or production.",
+    images: [
+      "/images/properties/1110-sligh/01-1.jpg",
+      "/images/properties/1110-sligh/02-1.jpg",
+      "/images/properties/1110-sligh/03-1.jpg",
+      "/images/properties/1110-sligh/04-1.jpg",
+    ],
+    agentId: "agent-miguel-pinto",
+    featured: true,
+  },
+  {
     id: "prop-2020-combee",
     slug: "2020-s-combee-rd-lakeland-fl",
     name: "2020 S Combee Road",
