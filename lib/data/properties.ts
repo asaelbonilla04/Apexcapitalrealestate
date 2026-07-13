@@ -32,6 +32,38 @@ const LOADING_DOCKS =
 
 export const properties: Property[] = [
   {
+    id: "prop-300-sw-17th-ave",
+    slug: "300-sw-17th-ave-miami-fl",
+    name: "300 SW 17th Avenue",
+    address: "300 SW 17th Avenue, Suite 4",
+    submarket: "Miami",
+    city: "Miami",
+    state: "FL",
+    zip: "33135",
+    lat: 25.7686,
+    lng: -80.2148,
+    status: "For Lease",
+    // NOTE: source flyer lists Space Use as Retail. The data model doesn't
+    // have a Retail type; Flex/R&D best matches the "blank canvas for kitchen
+    // or production facility" positioning.
+    type: "Flex/R&D",
+    leaseRate: 40.0, // $40.00/SF/YR NNN
+    sizeSqFt: 1770,
+    driveInDoors: 1, // grade-level bay door
+    powerAmps: 300, // 3-phase, 300A
+    description:
+      "Turnkey blank canvas at 300 SW 17th Avenue, Suite 4 — a versatile 1,770 SF ground-floor space rehabbed in 2022 and ready to build out as a commercial kitchen, ghost kitchen, production facility, or retail space. Includes a grease trap already installed on site, 3-phase 300A electrical service, two brand-new 3.5-ton AC units, and grade-level bay door access. Term is negotiable. $40.00/SF/YR NNN — lease rate does not include utilities, property expenses, or building services.",
+    images: [
+      "/images/properties/300-sw-17th-ave/01-1.jpg",
+      "/images/properties/300-sw-17th-ave/03-1.jpg",
+      "/images/properties/300-sw-17th-ave/04-1.jpg",
+      "/images/properties/300-sw-17th-ave/05-1.jpg",
+      "/images/properties/300-sw-17th-ave/06-1.jpg",
+    ],
+    agentId: "agent-miguel-pinto",
+    featured: true,
+  },
+  {
     id: "prop-1110-sligh",
     slug: "1110-sligh-blvd-orlando-fl",
     name: "1110 Sligh Boulevard",
@@ -112,35 +144,6 @@ export const properties: Property[] = [
       "https://i.imgur.com/omduoqE.jpeg",
       "https://i.imgur.com/laCiE4q.jpeg",
       "https://i.imgur.com/ZEQsgTz.jpeg",
-    ],
-    agentId: "agent-miguel-pinto",
-    featured: true,
-  },
-  {
-    id: "prop-2621-skyview",
-    slug: "2621-skyview-dr-lakeland-fl",
-    name: "2621 Skyview Drive",
-    address: "2621 Skyview Drive",
-    submarket: "Lakeland",
-    city: "Lakeland",
-    state: "FL",
-    zip: "33810", // PLACEHOLDER — confirm exact ZIP
-    lat: 28.0800,
-    lng: -81.9498,
-    status: "For Lease",
-    type: "Warehouse/Distribution",
-    leaseRate: 16.07, // $7,500/month × 12 ÷ 5,600 SF = $16.07/SF/YR
-    sizeSqFt: 5600,
-    driveInDoors: 1, // large roll-up
-    officeBuildOutPct: 13, // ~700 SF AC office/showroom of 5,600 SF total
-    description:
-      "Clean, modern warehouse space in one of Lakeland's fastest-growing industrial corridors. The 5,600 SF unit includes a ~700 SF air-conditioned office/showroom plus a freshly renovated, high-clearance warehouse with epoxy floors, bright LED lighting throughout, and a large roll-up door for easy vehicle and equipment access. Dealer-friendly, with ample parking, easy truck and trailer access, and 24/7 access — minutes from I-4 and major Lakeland routes. Ideal for used car dealers and auto brokers, contractors (HVAC, electrical, plumbing, flooring), auto detailers and mechanics, e-commerce and inventory storage, small distribution, or workshop / flex industrial use.",
-    images: [
-      "https://i.imgur.com/sWjr6t4.jpeg",
-      "https://i.imgur.com/OeZambQ.jpeg",
-      "https://i.imgur.com/jJkFDYd.jpeg",
-      "https://i.imgur.com/Foc53h7.png",
-      "https://i.imgur.com/cUVcNxf.png",
     ],
     agentId: "agent-miguel-pinto",
     featured: true,
