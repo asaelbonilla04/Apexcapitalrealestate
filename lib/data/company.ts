@@ -19,7 +19,7 @@ export const company = {
     zip: "32801", // PLACEHOLDER ZIP — downtown Orlando default
   },
   phone: "(305) 632-2575",
-  email: "info@apexcapitalrealty.com", // PLACEHOLDER
+  email: "miguel@apexcapitalrealty.com",
   // Downtown Orlando coordinates as a placeholder for the embedded map.
   geo: { lat: 28.5383, lng: -81.3792 },
   social: {
