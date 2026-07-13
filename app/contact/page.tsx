@@ -21,15 +21,13 @@ const socials = [
 export default function ContactPage() {
   return (
     <>
-      <section className="bg-navy">
-        <div className="container-wide py-16 md:py-20">
-          <p className="label-eyebrow text-brand-light">Contact</p>
-          <h1 className="mt-3 text-4xl font-bold tracking-tight text-white sm:text-5xl">
-            Let&apos;s talk
-          </h1>
-          <p className="mt-4 max-w-2xl text-lg text-slate-300">
-            Whether you&apos;re an occupier, owner, or investor, our team is
-            ready to help you move on Central Florida industrial.
+      <section className="bg-background pt-16 pb-16 md:pt-24 md:pb-20">
+        <div className="container-wide">
+          <p className="label-eyebrow">Contact</p>
+          <h1 className="display-section mt-6">Let&rsquo;s talk.</h1>
+          <p className="mt-8 max-w-xl text-lg leading-relaxed text-ink-muted">
+            Looking for space, want to schedule a tour, or have a question
+            about a listing? Send a message or text us.
           </p>
         </div>
       </section>

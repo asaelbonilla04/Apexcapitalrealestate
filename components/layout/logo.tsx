@@ -3,9 +3,8 @@ import Link from "next/link";
 import { cn } from "@/lib/utils";
 
 /**
- * Wordmark logo. PLACEHOLDER — replace with the real Terramap logo asset
- * (SVG preferred) when available; drop it in /public and swap the markup
- * below.
+ * Wordmark logo — just "TERRAMAP" as a bold, tight sans-serif wordmark.
+ * Editorial minimalism: no badge, no subtitle.
  */
 export function Logo({
   invert = false,
@@ -17,25 +16,14 @@ export function Logo({
   return (
     <Link
       href="/"
-      className={cn("inline-flex items-center gap-2", className)}
+      className={cn(
+        "inline-block text-lg font-black uppercase tracking-tight",
+        invert ? "text-cream" : "text-ink",
+        className,
+      )}
       aria-label="Terramap — home"
     >
-      <span
-        className={cn(
-          "flex h-8 w-8 items-center justify-center rounded-sm bg-brand font-bold text-white",
-        )}
-        aria-hidden="true"
-      >
-        T
-      </span>
-      <span
-        className={cn(
-          "text-base font-bold tracking-tight",
-          invert ? "text-white" : "text-navy",
-        )}
-      >
-        TERRAMAP
-      </span>
+      TERRAMAP
     </Link>
   );
 }

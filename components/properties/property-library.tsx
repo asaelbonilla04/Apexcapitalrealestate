@@ -121,7 +121,7 @@ export function PropertyLibrary({
   return (
     <div>
       {/* Sticky filter bar */}
-      <div className="sticky top-16 z-30 border-y border-border bg-white/95 backdrop-blur">
+      <div className="sticky top-16 z-30 border-y border-cream-border bg-background/95 backdrop-blur">
         <div className="container-wide py-4">
           <div className="flex flex-col gap-4">
             <div className="flex flex-wrap items-center gap-3">
@@ -157,8 +157,8 @@ export function PropertyLibrary({
                     className={cn(
                       "h-full rounded px-3 text-sm font-medium transition-colors",
                       status === value
-                        ? "bg-brand text-white"
-                        : "text-navy hover:bg-accent",
+                        ? "bg-ink text-cream"
+                        : "text-ink hover:bg-accent",
                     )}
                   >
                     {label}
@@ -173,14 +173,14 @@ export function PropertyLibrary({
                     <SlidersHorizontal className="h-4 w-4" />
                     Submarkets
                     {selectedSubmarkets.length > 0 && (
-                      <span className="ml-1 rounded-full bg-brand px-1.5 text-xs text-white">
+                      <span className="ml-1 rounded-full bg-ink px-1.5 text-xs text-cream">
                         {selectedSubmarkets.length}
                       </span>
                     )}
                   </Button>
                 </PopoverTrigger>
                 <PopoverContent align="end" className="w-64">
-                  <p className="mb-3 text-sm font-semibold text-navy">
+                  <p className="mb-3 text-sm font-semibold text-ink">
                     Filter by submarket
                   </p>
                   <div className="max-h-64 space-y-2 overflow-auto pr-1">
@@ -208,7 +208,7 @@ export function PropertyLibrary({
                   </Button>
                 </PopoverTrigger>
                 <PopoverContent align="end" className="w-72">
-                  <p className="mb-1 text-sm font-semibold text-navy">
+                  <p className="mb-1 text-sm font-semibold text-ink">
                     Building size
                   </p>
                   <p className="mb-4 text-sm text-muted-foreground">
@@ -242,8 +242,8 @@ export function PropertyLibrary({
                     className={cn(
                       "rounded-full border px-3 py-1.5 text-xs font-medium transition-colors",
                       active
-                        ? "border-brand bg-brand text-white"
-                        : "border-border bg-white text-navy hover:border-brand/40",
+                        ? "border-ink bg-ink text-cream"
+                        : "border-cream-border bg-transparent text-ink hover:border-ink/40",
                     )}
                   >
                     {type}
@@ -254,7 +254,7 @@ export function PropertyLibrary({
                 <button
                   type="button"
                   onClick={clearFilters}
-                  className="ml-auto inline-flex items-center gap-1 rounded-full px-3 py-1.5 text-xs font-semibold text-brand hover:underline"
+                  className="ml-auto inline-flex items-center gap-1 rounded-full px-3 py-1.5 text-xs font-semibold text-ink underline underline-offset-4 hover:text-ink/70"
                 >
                   <X className="h-3.5 w-3.5" />
                   Clear filters
@@ -276,7 +276,7 @@ export function PropertyLibrary({
 
         {filtered.length === 0 ? (
           <div className="flex flex-col items-center justify-center rounded-xl border border-dashed border-border py-24 text-center">
-            <p className="text-lg font-semibold text-navy">
+            <p className="text-lg font-semibold text-ink">
               No properties match your filters
             </p>
             <p className="mt-2 max-w-sm text-sm text-muted-foreground">

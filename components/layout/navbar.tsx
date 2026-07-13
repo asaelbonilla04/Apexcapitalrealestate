@@ -3,24 +3,15 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Menu, X } from "lucide-react";
+import { ArrowRight, Menu, X } from "lucide-react";
 
 import { cn } from "@/lib/utils";
-import { Button } from "@/components/ui/button";
 import { Logo } from "./logo";
 import { navLinks } from "./nav-links";
 
 export function Navbar() {
   const pathname = usePathname();
-  const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
-
-  useEffect(() => {
-    const onScroll = () => setScrolled(window.scrollY > 16);
-    onScroll();
-    window.addEventListener("scroll", onScroll, { passive: true });
-    return () => window.removeEventListener("scroll", onScroll);
-  }, []);
 
   // Close the mobile menu whenever the route changes.
   useEffect(() => {
@@ -30,15 +21,13 @@ export function Navbar() {
   return (
     <header
       className={cn(
-        "sticky top-0 z-50 w-full border-b transition-colors duration-300",
-        scrolled || open
-          ? "border-border bg-white/95 backdrop-blur"
-          : "border-transparent bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/80",
+        "sticky top-0 z-50 w-full border-b border-transparent bg-background/95 backdrop-blur transition-colors",
+        open && "border-cream-border",
       )}
     >
       <a
         href="#main"
-        className="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-3 focus:z-50 focus:rounded-md focus:bg-brand focus:px-4 focus:py-2 focus:text-sm focus:text-white"
+        className="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-3 focus:z-50 focus:rounded-md focus:bg-ink focus:px-4 focus:py-2 focus:text-sm focus:text-cream"
       >
         Skip to content
       </a>
@@ -48,8 +37,8 @@ export function Navbar() {
       >
         <Logo />
 
-        <div className="hidden items-center gap-8 lg:flex">
-          <ul className="flex items-center gap-6">
+        <div className="hidden items-center gap-10 md:flex">
+          <ul className="flex items-center gap-8">
             {navLinks.map((link) => {
               const active =
                 link.href === "/"
@@ -60,8 +49,8 @@ export function Navbar() {
                   <Link
                     href={link.href}
                     className={cn(
-                      "text-sm font-medium transition-colors hover:text-brand",
-                      active ? "text-brand" : "text-navy",
+                      "text-xs font-semibold uppercase tracking-label transition-colors hover:text-ink",
+                      active ? "text-ink" : "text-ink-muted",
                     )}
                     aria-current={active ? "page" : undefined}
                   >
@@ -71,14 +60,18 @@ export function Navbar() {
               );
             })}
           </ul>
-          <Button asChild size="sm">
-            <Link href="/properties">Explore Properties</Link>
-          </Button>
+          <Link
+            href="/contact"
+            className="inline-flex items-center gap-1.5 border border-ink px-4 py-2 text-xs font-semibold uppercase tracking-label text-ink transition-colors hover:bg-ink hover:text-cream"
+          >
+            Get in touch
+            <ArrowRight className="h-3.5 w-3.5" />
+          </Link>
         </div>
 
         <button
           type="button"
-          className="inline-flex h-10 w-10 items-center justify-center rounded-md text-navy lg:hidden"
+          className="inline-flex h-10 w-10 items-center justify-center text-ink md:hidden"
           aria-label={open ? "Close menu" : "Open menu"}
           aria-expanded={open}
           onClick={() => setOpen((v) => !v)}
@@ -89,7 +82,7 @@ export function Navbar() {
 
       {/* Mobile menu */}
       {open && (
-        <div className="border-t border-border bg-white lg:hidden">
+        <div className="border-t border-cream-border bg-background md:hidden">
           <ul className="container-wide flex flex-col py-4">
             {navLinks.map((link) => {
               const active =
@@ -101,8 +94,8 @@ export function Navbar() {
                   <Link
                     href={link.href}
                     className={cn(
-                      "block rounded-md px-2 py-3 text-base font-medium",
-                      active ? "text-brand" : "text-navy",
+                      "block py-3 text-sm font-semibold uppercase tracking-label",
+                      active ? "text-ink" : "text-ink-muted",
                     )}
                     aria-current={active ? "page" : undefined}
                   >
@@ -111,10 +104,14 @@ export function Navbar() {
                 </li>
               );
             })}
-            <li className="mt-2 px-2">
-              <Button asChild className="w-full">
-                <Link href="/properties">Explore Properties</Link>
-              </Button>
+            <li className="mt-2">
+              <Link
+                href="/contact"
+                className="inline-flex items-center gap-1.5 border border-ink px-4 py-2.5 text-xs font-semibold uppercase tracking-label text-ink"
+              >
+                Get in touch
+                <ArrowRight className="h-3.5 w-3.5" />
+              </Link>
             </li>
           </ul>
         </div>

@@ -70,7 +70,7 @@ export function SpecGrid({ property }: { property: Property }) {
           className="flex items-center justify-between border-b border-border py-3.5"
         >
           <dt className="text-sm text-muted-foreground">{spec.label}</dt>
-          <dd className="text-sm font-semibold text-navy">{spec.value}</dd>
+          <dd className="text-sm font-semibold text-ink">{spec.value}</dd>
         </div>
       ))}
     </dl>

@@ -63,15 +63,15 @@ export default function PropertyDetailPage({
           aria-label="Breadcrumb"
           className="flex items-center gap-1 text-sm text-muted-foreground"
         >
-          <Link href="/" className="hover:text-brand">
+          <Link href="/" className="hover:text-ink/70">
             Home
           </Link>
           <ChevronRight className="h-4 w-4" />
-          <Link href="/properties" className="hover:text-brand">
+          <Link href="/properties" className="hover:text-ink/70">
             Properties
           </Link>
           <ChevronRight className="h-4 w-4" />
-          <span className="text-navy">{property.name}</span>
+          <span className="text-ink">{property.name}</span>
         </nav>
       </div>
 
@@ -83,11 +83,11 @@ export default function PropertyDetailPage({
           <div>
             <div className="flex flex-wrap items-center gap-3">
               <Badge>{property.status}</Badge>
-              <span className="text-sm font-medium uppercase tracking-wide text-brand">
+              <span className="text-sm font-medium uppercase tracking-wide text-ink">
                 {property.type}
               </span>
             </div>
-            <h1 className="mt-3 text-3xl font-bold tracking-tight text-navy sm:text-4xl">
+            <h1 className="mt-3 text-3xl font-bold tracking-tight text-ink sm:text-4xl">
               {property.name}
             </h1>
             <p className="mt-2 flex items-center gap-1.5 text-muted-foreground">
@@ -95,7 +95,7 @@ export default function PropertyDetailPage({
               {property.address}, {property.city}, {property.state}{" "}
               {property.zip} · {property.submarket}
             </p>
-            <p className="mt-4 text-2xl font-bold text-brand">
+            <p className="mt-4 text-2xl font-bold text-ink">
               {priceLabel(property)}
               {property.status === "For Lease" && (
                 <span className="ml-2 text-sm font-normal text-muted-foreground">
@@ -107,7 +107,7 @@ export default function PropertyDetailPage({
 
           {/* Specs */}
           <section>
-            <h2 className="mb-4 text-xl font-bold text-navy">
+            <h2 className="mb-4 text-xl font-bold text-ink">
               Property specifications
             </h2>
             <SpecGrid property={property} />
@@ -115,7 +115,7 @@ export default function PropertyDetailPage({
 
           {/* Description */}
           <section>
-            <h2 className="mb-4 text-xl font-bold text-navy">
+            <h2 className="mb-4 text-xl font-bold text-ink">
               About this property
             </h2>
             <div className="prose-sm max-w-none text-base leading-relaxed text-muted-foreground">
@@ -125,7 +125,7 @@ export default function PropertyDetailPage({
 
           {/* Map */}
           <section>
-            <h2 className="mb-4 text-xl font-bold text-navy">Location</h2>
+            <h2 className="mb-4 text-xl font-bold text-ink">Location</h2>
             <MapEmbed
               lat={property.lat}
               lng={property.lng}

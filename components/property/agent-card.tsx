@@ -24,21 +24,21 @@ export function AgentCard({
           />
         </div>
         <div>
-          <p className="font-bold text-navy">{agent.name}</p>
+          <p className="font-bold text-ink">{agent.name}</p>
           <p className="text-sm text-muted-foreground">{agent.title}</p>
         </div>
       </div>
       <div className="mt-5 space-y-2">
         <a
           href={`tel:${agent.phone.replace(/[^\d+]/g, "")}`}
-          className="flex items-center gap-2 text-sm text-navy transition-colors hover:text-brand"
+          className="flex items-center gap-2 text-sm text-ink transition-colors hover:text-brand"
         >
           <Phone className="h-4 w-4 text-brand" />
           {agent.phone}
         </a>
         <a
           href={`mailto:${agent.email}`}
-          className="flex items-center gap-2 text-sm text-navy transition-colors hover:text-brand"
+          className="flex items-center gap-2 text-sm text-ink transition-colors hover:text-brand"
         >
           <Mail className="h-4 w-4 text-brand" />
           {agent.email}

@@ -19,14 +19,23 @@ const config: Config = {
       colors: {
         // Terramap brand palette
         brand: {
-          DEFAULT: "#295CD6", // primary deep blue
+          DEFAULT: "#295CD6", // deep blue — used sparingly for CTAs / accents
           dark: "#1E48AB",
           light: "#4A78E5",
         },
         navy: {
-          DEFAULT: "#0B1220", // secondary near-black navy
+          DEFAULT: "#0B1220", // near-black navy — mostly for inverted surfaces
           800: "#111A2E",
           700: "#1A2640",
+        },
+        cream: {
+          DEFAULT: "#F1EBDF", // primary warm off-white background
+          light: "#F8F4EC",   // slightly lighter — for elevated cards on cream
+          border: "#D8CFBB",  // warm subtle divider
+        },
+        ink: {
+          DEFAULT: "#0F0E0B", // near-black warm text
+          muted: "#6B6355",   // muted warm gray for secondary copy
         },
         // shadcn/ui design tokens (mapped to CSS variables in globals.css)
         border: "hsl(var(--border))",

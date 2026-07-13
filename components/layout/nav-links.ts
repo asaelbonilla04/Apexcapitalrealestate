@@ -3,12 +3,21 @@ export interface NavLink {
   href: string;
 }
 
-// Primary navigation. Order matters — it drives both desktop and mobile menus.
+// Primary navigation. Kept intentionally minimal — the tenant-facing site
+// only needs a couple of anchors at the top; secondary pages live in the
+// footer.
 export const navLinks: NavLink[] = [
-  { label: "Properties", href: "/properties" },
-  { label: "Capabilities", href: "/capabilities" },
-  { label: "Company", href: "/company" },
+  { label: "Spaces", href: "/properties" },
+  { label: "About", href: "/company" },
+  { label: "Contact", href: "/contact" },
+];
+
+// Secondary links surfaced in the footer only.
+export const footerLinks: NavLink[] = [
+  { label: "Spaces", href: "/properties" },
+  { label: "About", href: "/company" },
   { label: "Team", href: "/team" },
+  { label: "Capabilities", href: "/capabilities" },
   { label: "Careers", href: "/careers" },
   { label: "Contact", href: "/contact" },
 ];

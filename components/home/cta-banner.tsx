@@ -1,30 +1,52 @@
 import Link from "next/link";
+import { ArrowRight } from "lucide-react";
 
-import { Button } from "@/components/ui/button";
 import { Reveal } from "@/components/shared/reveal";
+import { company } from "@/lib/data/company";
 
+/**
+ * Bottom-of-home CTA. Cream section, editorial layout — headline on the
+ * left, phone / email + primary CTA on the right.
+ */
 export function CtaBanner() {
   return (
-    <section className="bg-brand">
-      <div className="container-tight flex flex-col items-center gap-6 py-20 text-center">
+    <section className="border-t border-cream-border bg-background py-24 md:py-32">
+      <div className="container-wide grid gap-12 md:grid-cols-2 md:items-end">
         <Reveal>
-          <p className="label-eyebrow text-white/70">Let&apos;s talk</p>
-          <h2 className="mt-3 max-w-3xl text-3xl font-bold tracking-tight text-white sm:text-4xl md:text-5xl">
-            Have a requirement or an asset to position? Let&apos;s build the
-            strategy.
+          <p className="label-eyebrow">Ready to move</p>
+          <h2 className="display-section mt-6">
+            Let&rsquo;s find your space.
           </h2>
         </Reveal>
-        <Reveal delay={0.1} className="flex flex-col gap-3 sm:flex-row">
-          <Button asChild size="lg" variant="secondary">
-            <Link href="/contact">Get in touch</Link>
-          </Button>
-          <Button
-            asChild
-            size="lg"
-            className="bg-white text-brand hover:bg-slate-100"
-          >
-            <Link href="/properties">Browse the library</Link>
-          </Button>
+
+        <Reveal delay={0.1}>
+          <div className="space-y-6 md:pl-8">
+            <div>
+              <p className="label-eyebrow">Call or text</p>
+              <a
+                href={`tel:${company.phone.replace(/[^\d+]/g, "")}`}
+                className="mt-2 block text-2xl font-semibold text-ink hover:text-brand"
+              >
+                {company.phone}
+              </a>
+            </div>
+            <div>
+              <p className="label-eyebrow">Email</p>
+              <a
+                href={`mailto:${company.email}`}
+                className="mt-2 block text-2xl font-semibold text-ink hover:text-brand"
+              >
+                {company.email}
+              </a>
+            </div>
+            <Link
+              href="/contact"
+              className="inline-flex items-center gap-2 bg-ink px-6 py-3 text-sm font-semibold uppercase tracking-label text-cream transition-colors hover:bg-ink/85"
+            >
+              Send a message
+              <ArrowRight className="h-4 w-4" />
+            </Link>
+          </div>
         </Reveal>
       </div>
     </section>

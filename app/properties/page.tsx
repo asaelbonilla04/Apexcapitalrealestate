@@ -58,15 +58,13 @@ export default function PropertiesPage({
 
   return (
     <>
-      <section className="bg-navy">
-        <div className="container-wide py-16 md:py-20">
-          <p className="label-eyebrow text-brand-light">The Library</p>
-          <h1 className="mt-3 max-w-3xl text-4xl font-bold tracking-tight text-white sm:text-5xl">
-            Industrial properties across Central Florida
-          </h1>
-          <p className="mt-4 max-w-2xl text-lg text-slate-300">
-            Search and filter our catalog of warehouse, distribution, flex,
-            cold storage, IOS, and land opportunities — for sale and for lease.
+      <section className="bg-background pt-16 pb-16 md:pt-24 md:pb-20">
+        <div className="container-wide">
+          <p className="label-eyebrow">Available now</p>
+          <h1 className="display-section mt-6">Spaces.</h1>
+          <p className="mt-6 max-w-xl text-lg leading-relaxed text-ink-muted">
+            Warehouse, flex, and small-bay space across Central Florida.
+            Filter to find something that fits your business.
           </p>
         </div>
       </section>

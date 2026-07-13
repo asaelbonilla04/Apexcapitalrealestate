@@ -69,7 +69,7 @@ export function ContactForm() {
     return (
       <div className="flex flex-col items-center rounded-xl border border-border bg-white p-10 text-center">
         <CheckCircle2 className="h-12 w-12 text-emerald-600" />
-        <p className="mt-4 text-xl font-bold text-navy">Message sent</p>
+        <p className="mt-4 text-xl font-bold text-ink">Message sent</p>
         <p className="mt-2 max-w-sm text-sm text-muted-foreground">
           Thanks for reaching out. A member of the Terramap team will
           be in touch shortly.

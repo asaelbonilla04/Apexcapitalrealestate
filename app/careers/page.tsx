@@ -33,24 +33,23 @@ const reasons = [
 export default function CareersPage() {
   return (
     <>
-      <section className="bg-navy">
-        <div className="container-wide py-16 md:py-24">
-          <p className="label-eyebrow text-brand-light">Careers</p>
-          <h1 className="mt-3 max-w-3xl text-4xl font-bold leading-tight tracking-tight text-white sm:text-5xl md:text-6xl">
-            We&apos;re hiring driven people who want an edge.
-          </h1>
-          <p className="mt-6 max-w-2xl text-lg text-slate-300">
-            Terramap is growing. If you&apos;re ambitious about
-            industrial real estate and want a platform that rewards
-            performance, we want to hear from you.
+      <section className="bg-background pt-16 pb-16 md:pt-24 md:pb-20">
+        <div className="container-wide">
+          <p className="label-eyebrow">Careers</p>
+          <h1 className="display-section mt-6">Come build.</h1>
+          <p className="mt-8 max-w-xl text-lg leading-relaxed text-ink-muted">
+            We&rsquo;re growing. If industrial real estate operations —
+            buying, renovating, and leasing space — sounds like your kind
+            of work, get in touch.
           </p>
-          <div className="mt-8">
-            <Button asChild size="lg">
-              <Link href="/contact">
-                Introduce yourself
-                <ArrowRight className="h-4 w-4" />
-              </Link>
-            </Button>
+          <div className="mt-10">
+            <Link
+              href="/contact"
+              className="inline-flex items-center gap-2 bg-ink px-6 py-3 text-sm font-semibold uppercase tracking-label text-cream transition-colors hover:bg-ink/85"
+            >
+              Introduce yourself
+              <ArrowRight className="h-4 w-4" />
+            </Link>
           </div>
         </div>
       </section>

@@ -53,7 +53,7 @@ export function InquiryForm({ propertyName }: { propertyName: string }) {
     return (
       <div className="flex flex-col items-center rounded-xl border border-border bg-white p-8 text-center">
         <CheckCircle2 className="h-10 w-10 text-emerald-600" />
-        <p className="mt-4 text-lg font-bold text-navy">Thank you</p>
+        <p className="mt-4 text-lg font-bold text-ink">Thank you</p>
         <p className="mt-1 text-sm text-muted-foreground">
           Your inquiry has been received. A member of the Terramap team will reach
           out shortly.
@@ -69,7 +69,7 @@ export function InquiryForm({ propertyName }: { propertyName: string }) {
       className="rounded-xl border border-border bg-white p-6"
     >
       <p className="label-eyebrow mb-1">Request Info</p>
-      <h3 className="mb-5 text-lg font-bold text-navy">
+      <h3 className="mb-5 text-lg font-bold text-ink">
         Interested in this property?
       </h3>
 

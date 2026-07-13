@@ -37,7 +37,7 @@ export function Gallery({
               type="button"
               onClick={() => go(-1)}
               aria-label="Previous photo"
-              className="absolute left-3 top-1/2 flex h-10 w-10 -translate-y-1/2 items-center justify-center rounded-full bg-white/90 text-navy shadow transition-colors hover:bg-white"
+              className="absolute left-3 top-1/2 flex h-10 w-10 -translate-y-1/2 items-center justify-center rounded-full bg-white/90 text-ink shadow transition-colors hover:bg-white"
             >
               <ChevronLeft className="h-5 w-5" />
             </button>
@@ -45,11 +45,11 @@ export function Gallery({
               type="button"
               onClick={() => go(1)}
               aria-label="Next photo"
-              className="absolute right-3 top-1/2 flex h-10 w-10 -translate-y-1/2 items-center justify-center rounded-full bg-white/90 text-navy shadow transition-colors hover:bg-white"
+              className="absolute right-3 top-1/2 flex h-10 w-10 -translate-y-1/2 items-center justify-center rounded-full bg-white/90 text-ink shadow transition-colors hover:bg-white"
             >
               <ChevronRight className="h-5 w-5" />
             </button>
-            <div className="absolute bottom-3 right-3 rounded-full bg-navy/80 px-3 py-1 text-xs font-medium text-white">
+            <div className="absolute bottom-3 right-3 rounded-full bg-ink/80 px-3 py-1 text-xs font-medium text-white">
               {active + 1} / {count}
             </div>
           </>

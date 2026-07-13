@@ -16,15 +16,13 @@ export default function TeamPage() {
 
   return (
     <>
-      <section className="bg-navy">
-        <div className="container-wide py-16 md:py-20">
-          <p className="label-eyebrow text-brand-light">Team</p>
-          <h1 className="mt-3 max-w-3xl text-4xl font-bold tracking-tight text-white sm:text-5xl">
-            The people behind the deals
-          </h1>
-          <p className="mt-4 max-w-2xl text-lg text-slate-300">
-            A focused team of industrial specialists with deep roots across the
-            Central Florida market.
+      <section className="bg-background pt-16 pb-16 md:pt-24 md:pb-20">
+        <div className="container-wide">
+          <p className="label-eyebrow">Team</p>
+          <h1 className="display-section mt-6">Who you deal with.</h1>
+          <p className="mt-8 max-w-xl text-lg leading-relaxed text-ink-muted">
+            You&rsquo;ll talk to a real person on every space — same
+            person from first message to lease signing.
           </p>
         </div>
       </section>

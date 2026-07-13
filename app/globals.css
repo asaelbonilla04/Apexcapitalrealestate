@@ -4,34 +4,34 @@
 
 @layer base {
   :root {
-    /* shadcn/ui tokens tuned to the Terramap palette.
-       --primary maps to brand blue #295CD6; --secondary to navy #0B1220. */
-    --background: 210 20% 99%;
-    --foreground: 222 47% 8%;
+    /* Cream-forward palette. shadcn/ui tokens are tuned so the whole site
+       inherits the warm background and near-black warm text by default. */
+    --background: 38 32% 91%;  /* cream #F1EBDF */
+    --foreground: 40 12% 6%;   /* warm near-black #0F0E0B */
 
-    --card: 0 0% 100%;
-    --card-foreground: 222 47% 8%;
+    --card: 42 43% 95%;        /* light cream #F8F4EC */
+    --card-foreground: 40 12% 6%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222 47% 8%;
+    --popover: 42 43% 95%;
+    --popover-foreground: 40 12% 6%;
 
-    --primary: 222 70% 50%;
+    --primary: 222 70% 50%;    /* brand blue — accents only */
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 222 47% 8%;
-    --secondary-foreground: 0 0% 100%;
+    --secondary: 40 12% 6%;    /* warm near-black */
+    --secondary-foreground: 42 43% 95%;
 
-    --muted: 210 16% 96%;
-    --muted-foreground: 215 16% 42%;
+    --muted: 38 26% 86%;
+    --muted-foreground: 33 12% 38%; /* ink-muted */
 
-    --accent: 222 70% 96%;
-    --accent-foreground: 222 47% 11%;
+    --accent: 40 20% 82%;
+    --accent-foreground: 40 12% 6%;
 
     --destructive: 0 72% 51%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 214 20% 88%;
-    --input: 214 20% 88%;
+    --border: 38 25% 79%;      /* warm cream border */
+    --input: 38 25% 79%;
     --ring: 222 70% 50%;
 
     --radius: 0.5rem;
@@ -46,14 +46,32 @@
     @apply bg-background text-foreground antialiased;
     font-feature-settings: "ss01", "cv01";
   }
-  /* Uppercase eyebrow / label styling used throughout the editorial layout. */
+  /* Small uppercase label used for eyebrows above headings. */
   .label-eyebrow {
-    @apply text-xs font-semibold uppercase tracking-label text-brand;
+    @apply text-xs font-semibold uppercase tracking-label text-ink-muted;
+  }
+}
+
+@layer components {
+  /* Massive editorial display headline used on hero + page headers.
+     Uppercase, extra-bold, tight leading — anchored by a period. */
+  .display-hero {
+    @apply font-black uppercase text-ink;
+    letter-spacing: -0.02em;
+    line-height: 0.92;
+    font-size: clamp(3.5rem, 11vw, 10rem);
+  }
+  /* Section heading (a step down from display-hero). */
+  .display-section {
+    @apply font-black uppercase text-ink;
+    letter-spacing: -0.015em;
+    line-height: 0.95;
+    font-size: clamp(2.75rem, 7vw, 6rem);
   }
 }
 
 @layer utilities {
-  /* Constrained content width matching the architectural grid feel. */
+  /* Constrained content widths on an editorial grid. */
   .container-tight {
     @apply mx-auto w-full max-w-6xl px-6;
   }
@@ -62,8 +80,7 @@
   }
 }
 
-/* Respect users who prefer reduced motion: neutralize Framer-driven and CSS
-   animations/transitions globally. */
+/* Respect users who prefer reduced motion. */
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,

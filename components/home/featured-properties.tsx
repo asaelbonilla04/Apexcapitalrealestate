@@ -3,39 +3,46 @@ import { ArrowRight } from "lucide-react";
 
 import { getFeaturedProperties } from "@/lib/data/properties";
 import { PropertyCard } from "@/components/properties/property-card";
-import { SectionHeading } from "@/components/shared/section-heading";
 import { Reveal } from "@/components/shared/reveal";
-import { Button } from "@/components/ui/button";
 
 export function FeaturedProperties() {
-  const featured = getFeaturedProperties(4);
+  const featured = getFeaturedProperties(6);
 
   return (
-    <section className="bg-background py-24">
+    <section className="border-t border-cream-border bg-background py-24 md:py-32">
       <div className="container-wide">
-        <div className="flex flex-wrap items-end justify-between gap-6">
-          <SectionHeading
-            eyebrow="Properties"
-            title="Featured industrial listings"
-            description="A snapshot of current opportunities from across the Terramap library — for sale and for lease."
-          />
-          <Reveal delay={0.1}>
-            <Button asChild variant="outline">
-              <Link href="/properties">
-                View all properties
-                <ArrowRight className="h-4 w-4" />
-              </Link>
-            </Button>
-          </Reveal>
-        </div>
+        <Reveal>
+          <p className="label-eyebrow">Currently available</p>
+        </Reveal>
+        <Reveal delay={0.08}>
+          <h2 className="display-section mt-6">Available spaces.</h2>
+        </Reveal>
+        <Reveal delay={0.14}>
+          <p className="mt-6 max-w-xl text-base text-ink-muted">
+            Every space is owned and operated in-house — no middlemen, no
+            surprises.
+          </p>
+        </Reveal>
 
-        <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="mt-16 grid gap-x-8 gap-y-16 sm:grid-cols-2 lg:grid-cols-3">
           {featured.map((property, i) => (
-            <Reveal key={property.id} delay={i * 0.08}>
+            <Reveal key={property.id} delay={i * 0.06}>
               <PropertyCard property={property} />
             </Reveal>
           ))}
         </div>
+
+        <Reveal delay={0.2}>
+          <div className="mt-16 flex justify-start">
+            <Link
+              href="/properties"
+              className="inline-flex items-center gap-2 border border-ink px-6 py-3 text-sm font-semibold uppercase tracking-label text-ink transition-colors hover:bg-ink hover:text-cream"
+            >
+              See all spaces
+              <ArrowRight className="h-4 w-4" />
+            </Link>
+          </div>
+        </Reveal>
       </div>
     </section>
   );
