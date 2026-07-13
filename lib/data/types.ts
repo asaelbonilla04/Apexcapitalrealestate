@@ -40,6 +40,12 @@ export interface Property {
   price?: number;
   /** Asking lease rate in $/SF/YR for lease listings. */
   leaseRate?: number;
+  /**
+   * Asking monthly rent (USD). If present, this is displayed in the UI
+   * instead of the $/SF/YR figure — useful for small-bay listings where
+   * tenants think in monthly terms.
+   */
+  monthlyRent?: number;
   sizeSqFt: number;
   lotSizeAcres?: number;
   // --- Industrial spec sheet fields ---

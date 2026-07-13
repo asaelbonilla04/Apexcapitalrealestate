@@ -13,8 +13,8 @@ export const agents: Agent[] = [
     id: "agent-miguel-pinto",
     name: "Miguel Pinto",
     title: "Property Owner",
-    phone: "(305) 632-2575",
-    email: "miguel@apexcapitalrealty.com",
+    phone: "(407) 337-4312",
+    email: "miguel@terramap.com",
     photo:
       "https://i0.wp.com/apexcapitalrealty.com/wp-content/uploads/2021/06/96-3.jpeg?fit=896%2C1088&ssl=1",
     bio: "Reach out directly for showings, inquiries, and additional details on available listings.",

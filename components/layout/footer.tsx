@@ -22,8 +22,7 @@ export function Footer() {
             TERRAMAP
           </p>
           <p className="max-w-md text-sm leading-relaxed text-ink-muted">
-            Industrial space across Central Florida — owned, operated, and
-            leased in-house.
+            Industrial space — owned, operated, and leased in-house.
           </p>
           <div className="flex gap-3 pt-2">
             {socialLinks.map(({ label, href, Icon }) => (
@@ -59,12 +58,8 @@ export function Footer() {
 
         <div>
           <h3 className="label-eyebrow mb-4">Contact</h3>
-          {/* NAP — keep consistent with structured data and listings. */}
           <address className="space-y-2 text-sm not-italic text-ink-muted">
             <p>{company.name}</p>
-            <p>
-              {company.address.city}, {company.address.state}
-            </p>
             <p>
               <a
                 href={`tel:${company.phone.replace(/[^\d+]/g, "")}`}
@@ -90,7 +85,7 @@ export function Footer() {
           <p>
             © {year} {company.name}. All rights reserved.
           </p>
-          <p>Licensed real estate brokerage — Orlando, FL.</p>
+          <p>Licensed real estate brokerage.</p>
         </div>
       </div>
     </footer>

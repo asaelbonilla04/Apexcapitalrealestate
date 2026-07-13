@@ -47,7 +47,8 @@ export const properties: Property[] = [
     // have a Retail type; Flex/R&D best matches the "blank canvas for kitchen
     // or production facility" positioning.
     type: "Flex/R&D",
-    leaseRate: 40.0, // $40.00/SF/YR NNN
+    leaseRate: 40.0, // $40.00/SF/YR NNN (reference)
+    monthlyRent: 7670,
     sizeSqFt: 1770,
     driveInDoors: 1, // grade-level bay door
     powerAmps: 300, // 3-phase, 300A
@@ -76,7 +77,8 @@ export const properties: Property[] = [
     lng: -81.3778,
     status: "For Lease",
     type: "Flex/R&D",
-    leaseRate: 22.2, // $6,475/mo × 12 ÷ 3,500 SF
+    leaseRate: 22.2, // $6,475/mo × 12 ÷ 3,500 SF (reference)
+    monthlyRent: 6475,
     // NOTE: listing headline says 3,700 SF; pricing block says 3,500 SF.
     // Using 3,500 (paired with the rate); confirm the correct size.
     sizeSqFt: 3500,
@@ -105,7 +107,8 @@ export const properties: Property[] = [
     lng: -81.9075,
     status: "For Lease",
     type: "Flex/R&D",
-    leaseRate: 17.76, // $1,850/mo × 12 ÷ 1,250 SF (typical unit)
+    leaseRate: 17.76, // $1,850/mo × 12 ÷ 1,250 SF (typical unit — reference)
+    monthlyRent: 1850,
     sizeSqFt: 1250, // per unit; four units currently available
     clearHeightFt: 15,
     driveInDoors: 1, // 12' × 12' roll-up
@@ -134,8 +137,9 @@ export const properties: Property[] = [
     lng: -81.3345,
     status: "For Lease",
     type: "Flex/R&D",
-    // Rate reflects Unit 1015 (smaller). Unit 1023 works out to $20.57/SF/YR.
-    leaseRate: 22.4, // $2,800/mo × 12 ÷ 1,500 SF
+    // Rate reflects Unit 1015 (smaller — reference). Unit 1023 is $4,800/mo.
+    leaseRate: 22.4, // $2,800/mo × 12 ÷ 1,500 SF (reference)
+    monthlyRent: 2800,
     sizeSqFt: 1500, // Unit 1015; Unit 1023 is 2,800 SF (see description)
     driveInDoors: 1,
     description:
@@ -161,7 +165,8 @@ export const properties: Property[] = [
     lng: -81.2937,
     status: "For Lease",
     type: "Flex/R&D",
-    leaseRate: 22.8, // $1,900/month × 12 ÷ 1,000 SF = $22.80/SF/YR
+    leaseRate: 22.8, // $1,900/mo × 12 ÷ 1,000 SF (reference)
+    monthlyRent: 1900,
     sizeSqFt: 1000, // per available unit
     driveInDoors: 1,
     description:
@@ -191,7 +196,8 @@ export const properties: Property[] = [
     lng: -81.5340,
     status: "For Lease",
     type: "Flex/R&D",
-    leaseRate: 28.0, // $3,500/month × 12 ÷ 1,500 SF = $28.00/SF/YR
+    leaseRate: 28.0, // $3,500/mo × 12 ÷ 1,500 SF (reference)
+    monthlyRent: 3500,
     sizeSqFt: 1500,
     driveInDoors: 1, // 14' x 10' roll-up door
     description:

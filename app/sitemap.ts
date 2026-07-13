@@ -1,9 +1,7 @@
 import type { MetadataRoute } from "next";
 
 import { getProperties } from "@/lib/data/properties";
-import { getCapabilities } from "@/lib/data/capabilities";
 
-// Update to the production domain before launch.
 const baseUrl = "https://terramapproperties.vercel.app";
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -11,9 +9,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "",
     "/properties",
     "/company",
-    "/team",
-    "/capabilities",
-    "/careers",
     "/contact",
   ].map((route) => ({
     url: `${baseUrl}${route}`,
@@ -25,10 +20,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     lastModified: new Date(),
   }));
 
-  const capabilityRoutes = getCapabilities().map((capability) => ({
-    url: `${baseUrl}/capabilities/${capability.slug}`,
-    lastModified: new Date(),
-  }));
-
-  return [...staticRoutes, ...propertyRoutes, ...capabilityRoutes];
+  return [...staticRoutes, ...propertyRoutes];
 }
